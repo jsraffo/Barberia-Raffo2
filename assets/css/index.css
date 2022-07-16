@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+        background-image: url(../images/Sin-título-3.jpg);
+        background-size: cover;
+        height: 170vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+}
+
+.header h1{
+    font-family: monospace;
+    font-size: 70px;
+    /* float: left; */
+    margin-top: 50px;
+    margin-left: 30px;
+    color: darkgoldenrod;
+    
+}
+
+.header main{
+    float: right;
+    
+}
+
+.header main ul{
+    list-style: none;
+}
+
+.header main ul li{
+    display: inline-block;
+    margin-top: 55px;
+    
+}
+
+.header a{
+    font-size: 25px;
+    font-family: monospace;
+    text-decoration: none;
+    padding: 5px;
+    color:  darkgoldenrod;
+}
+
+.carrucel h2{
+    color: black;
+    font-family: monospace;
+    font-size: 35px;
+    background-color: darkgoldenrod;
+    border: 4px dotted; 
+    border-color:  rgb(36, 36, 36);
+}
+
+.carrucel div{
+    height: 600px;
+    background-color: black;
+}
+
+.footer{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.footer p{
+    margin-top: 15px;
+}
+
+.footer i{
+    font-size: 25px;
+    letter-spacing: 15px;
+}
+
+.boton{
+    height: 50px;
+    width: 50px;
+    color: darkgoldenrod;
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+    font-size: 30px;
+        
+}
+
+
+
+@media only screen and (max-width:600px){
+    .header{
+        /* display: grid; */
+        /* grid-template-columns: 1fr 1fr; */ /* esto lo tengo que realizar para la vista mobile en la seccion de productos y clientes */
+        background-color: white;
+        background-image: none;
+        
+    }
+}

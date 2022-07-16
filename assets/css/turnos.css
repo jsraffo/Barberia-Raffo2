@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: o;
+}
+
+.body{
+    background-color: rgb(46, 46, 46);
+    background-color: aqua;
+}
+
+.body header h1{
+    font-size: 50px;
+    font-family: monospace;
+
+}
+
+.body form{
+    border: 2px solid black;
+    padding: 90px;
+}
